@@ -16,7 +16,7 @@ count = 0
 
 for i in range(1, len(list_1)):
     if list_1[i - 1] < list_1[i]:
-        result.append(list_1[i])
+        result.append(list_1[i])# .append = добавляет в конец списка элемент
 
 print(*result)# *- (распаковка)убирает скобки в терминале
 
